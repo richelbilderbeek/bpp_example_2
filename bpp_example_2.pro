@@ -9,4 +9,5 @@ CONFIG = c++14
 QMAKE_CXXFLAGS += -std=c++14
 
 # Bio++
+INCLUDEPATH += /usr/include/
 LIBS += -lbpp-core -lbpp-seq -lbpp-phyl -lbpp-popgen -lbpp-qt -lbpp-raa

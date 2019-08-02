@@ -4,9 +4,9 @@ SOURCES += main.cpp
 # High warning levels
 QMAKE_CXXFLAGS += -Wall -Wextra -Weffc++ -Werror
 
-# C++14
-CONFIG = c++14
-QMAKE_CXXFLAGS += -std=c++14
+# C++17
+CONFIG += c++17
+QMAKE_CXXFLAGS += -std=c++17
 
 # Bio++
 INCLUDEPATH += /usr/include/
